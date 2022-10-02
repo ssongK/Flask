@@ -4,7 +4,7 @@ from datetime import timedelta
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '12331243112'
-app.config['PERMANENT_SESSION_LIFETIME'] =  timedelta(minutes=5)
+app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=5)
 
 @app.route('/')
 def new_user():
