@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <h1>logout done!</h1>
+      <br>
+        {% if session: %}
+        session : {{ session }}
+        {% endif %}
+      <br><br>
+      <a href="/">main</a>
+      <br><br>
+      <a href="/list">list</a>
+      <a href="/login">login</a>
+      <a href="/result">result</a>
+      <a href="/logout">logout</a>
+   </body>
+</html>
